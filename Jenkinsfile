@@ -17,7 +17,7 @@ pipeline {
     //ARTVERSION = "${env.BUILD_ID}"
   }
   tools {
-    maven 'localMaven'
+    maven 'Maven'
     // jdk 'localJdk'
   }
   stages {
